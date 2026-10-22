@@ -1,0 +1,27 @@
+.comp-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 12rem;
+
+    background-color: rgb(194, 194, 194);
+    
+    border-bottom: 1px solid black;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.568);
+
+    .logo {
+        width: 8rem;
+    }
+
+    .navegacao ul {
+        display: flex;
+        gap: 2rem;
+
+        list-style: none;
+
+        li {
+            font-size: 1.8rem;
+        }
+    }
+}
